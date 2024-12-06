@@ -1,10 +1,14 @@
-//
+import Header from "./components/header/header"
+import Footer from "./components/footer/footer"
+import Body from "./components/body/body"
 
 function App() {
 
   return (
     <>
-      <p className='font-bold'>Hello!</p>
+      <Header />
+      <Body />
+      <Footer />
     </>
   )
 }
