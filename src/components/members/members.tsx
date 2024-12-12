@@ -2,12 +2,12 @@ import team from './teammembers.json'
 
 export default function Members() {
   return (
-    <div className="md:h-screen h-auto mt-5 p-2" id="Members">
-      <div className="flex flex-col justify-center items-center">
+    <div className="h-auto my-10 p-2" id="Members">
+      <div className="flex flex-col my-4 justify-center items-center">
         <h2 className="text-center font-mono text-4xl my-3 text-orange-400">Team Members</h2>
         <hr className="w-1/3 border-purple-700 border-2"/>
       </div>
-      <div className="p-2 my-3 flex flex-col md:flex-row justify-center items-center">
+      <div className="p-2 mt-8 flex flex-col md:flex-row justify-center items-center">
         {
           team.map(member => (
             <div className='w-full md:w-1/5 p-2 m-2 rounded-lg h-1/6 md:h-1/2 flex flex-col justify-center items-center border border-orange-500' key={member.id}>
