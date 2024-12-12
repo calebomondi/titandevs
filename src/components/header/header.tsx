@@ -29,8 +29,8 @@ export default function Header() {
                         <details>
                         <summary>About</summary>
                         <ul className="p-2">
-                            <li><a>History</a></li>
-                            <li><a>Founders</a></li>
+                            <li><a href="#Project">Project</a></li>
+                            <li><a>TitanDevs</a></li>
                         </ul>
                         </details>
                     </li>
@@ -58,8 +58,8 @@ export default function Header() {
                         <details>
                         <summary>About</summary>
                         <ul className="p-2">
-                            <li><a>History</a></li>
-                            <li><a>Founders</a></li>
+                            <li><a href="#Project">Project</a></li>
+                            <li><a>TitanDevs</a></li>
                         </ul>
                         </details>
                     </li>

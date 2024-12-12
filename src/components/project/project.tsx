@@ -10,7 +10,7 @@ export default function Project() {
       <div className="w-full flex flex-col md:flex-row md:h-full h-auto">
         <div className="w-full md:h-screen md:w-1/2 p-2 h-auto mt-5 md:mt-0 flex justify-center items-center flex-col bg-cover bg-center">
             <div className=' flex justify-center h-fill items-center flex-col'>
-              <h2 className="text-center font-mono text-3xl font-extrabold text-orange-400">What's wrong with current UI?</h2>
+              <h2 className="text-center font-mono text-3xl font-extrabold text-orange-400">What's wrong with current the UI?</h2>
               <p className="text-center font-sans text-lg font-bold">
               The placement of Facebook's menu tab at the top of the mobile interface can be inconvenient, 
               as it requires users to stretch their fingers to reach it, disrupting the natural flow of navigation. 
