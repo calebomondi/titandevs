@@ -8,7 +8,7 @@ export default function Members() {
         <hr className="w-1/3 border-purple-700 border-2"/>
       </div>
       <div className="p-2 w-full mt-8 flex flex-col md:flex-row justify-center items-center">
-      <div className="flex overflow-x-auto w-full md:w-auto whitespace-nowrap justify-center items-center">
+      <div className="flex overflow-x-auto w-full md:w-auto whitespace-nowrap md:justify-center md:items-center">
         {team.map((member) => (
           <div
             className="w-3/4 md:w-1/6 p-2 m-2 rounded-lg md:h-1/2 flex-shrink-0 flex flex-col justify-center items-center border border-orange-500"
