@@ -30,7 +30,7 @@ export default function Header() {
                         <summary>About</summary>
                         <ul className="p-2">
                             <li><a href="#Project">Project</a></li>
-                            <li><a>TitanDevs</a></li>
+                            <li><a href="#Titans">TitanDevs</a></li>
                         </ul>
                         </details>
                     </li>
@@ -59,7 +59,7 @@ export default function Header() {
                         <summary>About</summary>
                         <ul className="p-2">
                             <li><a href="#Project">Project</a></li>
-                            <li><a>TitanDevs</a></li>
+                            <li><a href="#Titans">TitanDevs</a></li>
                         </ul>
                         </details>
                     </li>

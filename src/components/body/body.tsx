@@ -1,6 +1,7 @@
 import Home from "../Home/home"
 import Members from "../members/members"
 import Project from "../project/project"
+import About from "../about/about"
 
 export default function Body() {
   return (
@@ -9,6 +10,7 @@ export default function Body() {
             <Home />
             <Members />
             <Project />
+            <About />
         </main>
     </>
   )

@@ -1,0 +1,3 @@
+const us: string = 'Titandevs is a dynamic group of IT Software Development students passionate about technology and innovation. Our team specializes in designing, developing, and deploying software solutions that address real-world challenges. From web and mobile applications to database management and automation tools, we leverage cutting-edge technologies and frameworks to create impactful projects. Collaboration, creativity, and continuous learning drive our success as we strive to grow both individually and as a team. At Tittandevs, we believe in building solutions that not only work but make a difference.'
+
+export default us;
