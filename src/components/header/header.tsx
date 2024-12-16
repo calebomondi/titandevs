@@ -34,7 +34,7 @@ export default function Header() {
                         </ul>
                         </details>
                     </li>
-                    <li><a>Contact</a></li>
+                    <li><a href="#Contacts">Contact</a></li>
                 </ul>
                 </div>
                 <svg
@@ -63,7 +63,7 @@ export default function Header() {
                         </ul>
                         </details>
                     </li>
-                    <li><a>Contact</a></li>
+                    <li><a href="#Contacts">Contact</a></li>
                 </ul>
             </div>
             <div className="navbar-end mr-2">
