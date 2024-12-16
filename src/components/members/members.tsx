@@ -19,8 +19,8 @@ export default function Members() {
               src="https://media.istockphoto.com/id/1349231567/vector/young-man-anime-style-character-anime-boy-vector.jpg?s=612x612&w=0&k=20&c=92lg_s72y-gYEfVoWKlq1bzmbWNNI6anQwyhwpMEMiw="
               alt="team member photo"
             />
-            <h2 className="font-mono p-1 text-lg">{member.name}</h2>
-            <h3 className="my-1">{member.role}</h3>
+            <h2 className="font-mono p-1 text-xl font-semibold">{member.name}</h2>
+            <h3 className="my-1 text-lg">{member.role}</h3>
             <p className="italic">"{member.quote}"</p>
           </div>
         ))}

@@ -1,7 +1,7 @@
 [
     {"id": 1, "name":"Caleb Mokua", "role": "Software Engineer", "url": "", "quote": "To infinity and beyond!"},
-    {"id": 2, "name":"Shadrack Maundu", "role": "Project Manager", "url": "", "quote": "To infinity and beyond!"},
-    {"id": 3, "name":"Claire Nd'ung'u", "role": "Web Designer", "url": "", "quote": "To infinity and beyond!"},
-    {"id": 4, "name":"George Juma", "role": "Quality Analysit", "url": "", "quote": "To infinity and beyond!"},
-    {"id": 5, "name":"William Malok", "role": "Requirements Engineer", "url": "", "quote": "To infinity and beyond!"}
+    {"id": 2, "name":"Shadrack Maundu", "role": "Project Manager", "url": "", "quote": "Just Go for It!"},
+    {"id": 3, "name":"Claire Nd'ung'u", "role": "Web Designer", "url": "", "quote": "I Believe In You!"},
+    {"id": 4, "name":"George Juma", "role": "Quality Analysit", "url": "", "quote": "Impossible Is Nothing!"},
+    {"id": 5, "name":"William Malok", "role": "Requirements Engineer", "url": "", "quote": "Its Never To Late!"}
 ]
