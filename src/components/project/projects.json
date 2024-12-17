@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1, 
+        "title": "Kilimo ForeCaster", 
+        "desc": "An agricultural software in irrigation that enables irrigation systems to irrigate crops depending on the current weather condition. It uses the OpenWeather API to get the latest data on weather according to a specific area.", 
+        "url": "https://github.com/user-attachments/assets/752f5689-9a9f-4968-a787-cfe1a097c8a2"
+    },
+    {
+        "id": 2, 
+        "title": "CountryOpedia", 
+        "desc": "Want to view a contries facts in a friendly and easy to understand way? CountryOpedia is here for you. It utilzes Globo restful API to fetch a countries facts and the dispalys it besides its flag with an option of jumping to gogle maps to view it.", 
+        "url": "https://github.com/user-attachments/assets/912023db-9bff-4bcd-a5a3-cf200829d32b"
+    },
+    {
+        "id": 3, 
+        "title": "IP Address Tracker", 
+        "desc": "A software platform built as a web application to be used for tracking public IP addresses and their location. It allows the user to enter the IP address and then utilizing the LeafJet Maps it displays the IP's precise location. It also use the IP API.", 
+        "url": "https://github.com/user-attachments/assets/f239066d-b01f-493c-91ba-6c8300b9eba1"
+    },
+    {
+        "id": 4, 
+        "title": "CryptoPunks", 
+        "desc": "A CryptoPunk NFTs tracker that is based on web3 and build using The Graph. It allows CryptoPunks traders to view NFTs sales, transfer, ownership and even NFTs currently on sale. It gives current NFTs data for precisions and informed decisons.", 
+        "url": "https://github.com/user-attachments/assets/b7197599-bcfe-4104-8a6f-e258e782e992"
+    },
+    {
+        "id": 5, 
+        "title": "Sociostat", 
+        "desc": "A social media campaign software platform that tracks the performance of posts. It was mainly aimed at Meta platforms Facebook and Instagram. It allows social media campaign managers to make informed decisions based on post data.", 
+        "url": "https://github.com/user-attachments/assets/d15d4d6e-fba9-41f4-8dc2-8e74ecad3103"
+    }
+]

@@ -11,7 +11,7 @@ export default function Members() {
       <div className="flex overflow-x-auto w-full md:w-auto whitespace-nowrap md:justify-center md:items-center">
         {team.map((member) => (
           <div
-            className="w-3/4 md:w-1/6 p-2 m-2 rounded-lg md:h-1/2 flex-shrink-0 flex flex-col justify-center items-center border border-orange-500"
+            className="w-3/4 md:w-1/6 p-2 m-2 rounded-lg md:h-1/2 flex-shrink-0 flex flex-col justify-center items-center border border-purple-600"
             key={member.id}
           >
             <img
