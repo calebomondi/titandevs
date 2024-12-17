@@ -9,9 +9,9 @@ export default function Body() {
     <>
         <main className="w-full h-full">
             <Home />
-            <Members />
             <Project />
             <About />
+            <Members />
             <Contact />
         </main>
     </>
