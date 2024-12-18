@@ -1,4 +1,4 @@
-import fb from '/fb.png'
+//import fb from '/fb.png'
 
 export default function Project() {
   return (
@@ -28,7 +28,11 @@ export default function Project() {
             </div>
         </div>
         <div className="w-full md:w-1/2 p-2 flex justify-center items-center h-screen">
-            <img src={fb} alt="Redesigned facebook ui" className='w-fit h-full md:h-auto'/>
+            <img 
+              src="https://github.com/user-attachments/assets/9e826f23-231a-4c7d-8991-43b0ae05425b"
+              alt="Redesigned facebook ui" 
+              className='w-fit h-full md:h-auto'
+            />
         </div>
     </div>
     </div>

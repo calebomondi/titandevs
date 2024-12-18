@@ -36,6 +36,14 @@ export default function Header() {
                         </details>
                     </li>
                     <li><a href="#Contacts">Contact</a></li>
+                    <li>
+                        <a 
+                            href="https://docs.google.com/presentation/d/1RVBEJpYSau_D6WlgwjG6yEbxR1pa2vVW/edit?usp=sharing&ouid=104943116039141848122&rtpof=true&sd=true"
+                            target="_blank"
+                        >
+                            Slides
+                        </a>
+                    </li>
                 </ul>
                 </div>
                 <svg
@@ -66,6 +74,14 @@ export default function Header() {
                         </details>
                     </li>
                     <li><a href="#Contacts">Contact</a></li>
+                    <li>
+                        <a 
+                            href="https://docs.google.com/presentation/d/1RVBEJpYSau_D6WlgwjG6yEbxR1pa2vVW/edit?usp=sharing&ouid=104943116039141848122&rtpof=true&sd=true"
+                            target="_blank"
+                        >
+                            Slides
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div className="navbar-end mr-2">

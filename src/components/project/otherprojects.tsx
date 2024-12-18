@@ -10,7 +10,7 @@ export default function OtherProjects() {
         {
             projects.map(project => (
                 <div 
-                className='flex flex-col h-2/6 border border-purple-600 rounded-lg p-1 m-2 min-w-[300px] md:min-w-800' 
+                className='flex flex-col h-2/6 border border-purple-600 rounded-lg p-1 m-2 min-w-[300px] md:min-w-800 hover:shadow-purple-500 hover:shadow-lg transition-shadow duration-300' 
                 key={project.id}
                 > 
                 <div className='flex justify-center items-center flex-col p-1'> 

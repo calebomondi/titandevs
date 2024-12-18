@@ -1,8 +1,10 @@
-import hack from '/hack.png'
-import squig from '/squig.png'
-import banner from '/bnr3.png'
+//import hack from '/hack.png'
+//import squig from '/squig.png'
+//import banner from '/bnr3.png'
 
 export default function Home() {
+  const squig = 'https://github.com/user-attachments/assets/41862270-817f-4a11-9e52-65a0194f0544'
+  const banner = 'https://github.com/user-attachments/assets/916a4854-e5fd-420b-82d6-849a18ef9701'
   return (
     <div className="w-full flex flex-col md:flex-row md:h-screen h-auto" id='Home'>
         <div className="w-full h-screen  md:w-1/2 p-2 md:h-auto flex justify-center items-center flex-col bg-cover bg-center" style={{ backgroundImage: `url(${squig})` }}>
@@ -12,7 +14,11 @@ export default function Home() {
             </div>
         </div>
         <div className="w-full md:w-1/2 p-2 flex justify-center items-center h-screen">
-            <img src={hack} alt="Developers In The Process" className='w-full h-full md:h-auto'/>
+            <img 
+              src="https://github.com/user-attachments/assets/f7071a03-a2e1-402d-b458-35d02e283596" 
+              alt="Developers In The Process" 
+              className='w-full h-full md:h-auto'
+            />
         </div>
     </div>
   )
