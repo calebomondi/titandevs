@@ -43,7 +43,7 @@ export default function Home(): JSX.Element {
       <img
         src={src}
         alt={alt}
-        className={`${className} ${loaded ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}
+        className={`${className} ${loaded ? 'opacity-100' : 'opacity-0'}`}
         style={style}
         loading="lazy"
         onLoad={() => setLoaded(true)}
@@ -86,7 +86,7 @@ export default function Home(): JSX.Element {
         <OptimizedImage
           src={IMAGES.developers}
           alt="Developers In The Process"
-          className="w-full h-full object-contain"
+          className="w-full h-full md:object-contain"
         />
       </div>
     </div>
