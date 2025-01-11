@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 interface ImageUrls {
   squig: string;
@@ -20,21 +20,6 @@ export default function Home(): JSX.Element {
     banner: 'https://github.com/user-attachments/assets/916a4854-e5fd-420b-82d6-849a18ef9701',
     developers: 'https://github.com/user-attachments/assets/f7071a03-a2e1-402d-b458-35d02e283596'
   };
-
-  useEffect(() => {
-    const imagePromises: Promise<void>[] = Object.values(IMAGES).map(src => {
-      return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.src = src;
-        img.onload = () => resolve();
-        img.onerror = (error: string | Event) => reject(error);
-      });
-    });
-
-    Promise.all(imagePromises)
-      .then()
-      .catch((err: Error) => console.error('Error preloading images:', err));
-  }, []);
 
   const OptimizedImage: React.FC<OptimizedImageProps> = ({ src, alt, className = '', style }) => {
     const [loaded, setLoaded] = useState<boolean>(false);
