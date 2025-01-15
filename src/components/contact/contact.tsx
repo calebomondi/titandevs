@@ -11,11 +11,11 @@ export default function Contact() {
         <div className="w-full  md:w-1/2 p-2 mt-5 md:mt-0 flex justify-center items-center flex-col md:h-full">
             <h2 className="text-xl text-orange-500 font-semibold my-3">Engage Our Socials</h2>
             <div className="flex flex-row justify-center items-center">
-                <i className="fa-brands mx-2 text-3xl fa-whatsapp"></i>
-                <i className="fa-brands mx-2 text-3xl fa-discord"></i>
-                <i className="fa-brands mx-2 text-3xl fa-x-twitter"></i>
-                <i className="fa-brands mx-2 text-3xl fa-instagram"></i>
-                <i className="fa-brands mx-2 text-3xl fa-facebook"></i>
+                <i className="fa-brands mx-2 text-3xl fa-whatsapp hover:scale-105"></i>
+                <i className="fa-brands mx-2 text-3xl fa-discord hover:scale-105"></i>
+                <i className="fa-brands mx-2 text-3xl fa-x-twitter hover:scale-105"></i>
+                <i className="fa-brands mx-2 text-3xl fa-instagram hover:scale-105"></i>
+                <i className="fa-brands mx-2 text-3xl fa-facebook hover:scale-105"></i>
             </div>
         </div>
         <div className="w-full md:w-1/2 p-2 flex justify-center items-center flex-col">
